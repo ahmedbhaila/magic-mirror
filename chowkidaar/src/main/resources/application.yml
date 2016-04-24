@@ -1,0 +1,17 @@
+server:
+  port: 9090
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
+
+zuul:
+  ignoredServices: '*'
+  routes:
+    khabarnama:
+      path: /news/**
+      stripPrefix: false
+    mausam:
+      path: /weather/**
+      stripPrefix: false
+    
