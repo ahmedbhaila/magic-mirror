@@ -24,6 +24,7 @@ A REST service using Spring Boot that serves (in no particular order)
 
 # Microsevices Everywhere
 All backend services are REST endpoints created using Spring Boot:
+
 1. Mausam - A RESTful weather service that pulls data from forecast.io
 2. Khabarnama - A RESTful news service that pulls data from NyTimes
 
