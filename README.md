@@ -28,10 +28,10 @@ All backend services are REST endpoints created using Spring Boot:
 1. Mausam - A RESTful weather service that pulls data from forecast.io
 2. Khabarnama - A RESTful news service that pulls data from NyTimes
 
-# Chowkidaar
+# Chowkidaar - API Gateway
 API Gateway is based on Netflix Zuul. The API Gateway also acts as a service aggregator and exposes a single endpoint for a front-end service.
 
-# Service Discovery
-Service discovery is based on Netflix Eureka
+# Matalashi - Service Discovery
+Matalashi is a service discovery based on Netflix Eureka
 
 
